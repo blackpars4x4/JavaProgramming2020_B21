@@ -57,7 +57,7 @@ Justyna Adil Ercan Irina Med Olesea Vlad Asuman Guvanch
 
         System.out.println("===========================================");
 
-        /*
+        /*/
         Output:
         [Lily, Lana, Igor]
 Igor Lana Lily
