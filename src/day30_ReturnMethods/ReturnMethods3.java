@@ -14,5 +14,5 @@ public class ReturnMethods3 {
         return max;
     }
 
-public static
+
 }
