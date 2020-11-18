@@ -24,8 +24,8 @@ public class WarmUpTasks {
 
         System.out.println("===================================");
 
-        int[] a1 = {10,50,60,70};
-        int[] a2 = {20,90,100};
+        int[] a1 = {10, 50, 60, 70};
+        int[] a2 = {20, 90, 100};
 
         combineTwoArrays(a1, a2);
 
@@ -36,6 +36,12 @@ public class WarmUpTasks {
 
         String str = "pppppfdfdfffffddeeessbb";
         removeDuplicate(str);
+
+        System.out.println("===================================");
+
+        formattedFullName("cYbErTeK", "ScHoOl");
+
+
 
     }
 
@@ -90,11 +96,11 @@ public class WarmUpTasks {
     }
 
     // task4:                           //"aabccb"
-    public static void removeDuplicate(String str){
+    public static void removeDuplicate(String str) {
         String result = "";// expected result "abc"
 
-        for(String each : str.split("")){
-            if(!result.contains(each)){
+        for (String each : str.split("")) {
+            if (!result.contains(each)) {
                 result += each;
 
             }
@@ -102,9 +108,15 @@ public class WarmUpTasks {
         System.out.println(result);
     }
 
-    // task5:
+    // task5://"cYbErTeK"
+    public static void formattedFullName(String first, String last) {
+        first = first.substring(0,1).toUpperCase() + first.substring(1).toLowerCase();
+        last = last.substring(0,1).toUpperCase() + last.substring(1).toLowerCase();
 
+        String fullName = first + " " + last;
 
+        System.out.println(fullName);
+    }
 
 
 }
