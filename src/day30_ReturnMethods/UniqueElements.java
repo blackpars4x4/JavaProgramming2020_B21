@@ -9,7 +9,7 @@ public class UniqueElements {
 
         for (int i = 0; i <= str.length() - 1; i++) {
             char each = str.charAt(i);
-            int count = frequency(str, str.charAt(i));
+            int count = frequency(str, each);
             if (count == 1) {
                 unique += each;
             }
@@ -17,7 +17,17 @@ public class UniqueElements {
         }
         System.out.println(unique);
 
+        System.out.println("===================================================");
+
+        String word = "ababcdedeh";
+
+        String result1 = unique(word);
+        System.out.println(result1);
+
     }
+
+
+    //METHODS==========================================================================
 
     //                                  "aaabc" ,   'a'  ==> 3
     public static int frequency(String str, char ch) {
@@ -30,5 +40,18 @@ public class UniqueElements {
         }
 
         return count;
+    }
+
+    public static String unique(String str) {
+        String unique = "";
+
+        for (int i = 0; i <= str.length() - 1; i++) {
+            char each = str.charAt(i);
+            int count = frequency(str, each);
+            if (count == 1) {
+                unique += each;
+            }
+        }
+        return unique;
     }
 }

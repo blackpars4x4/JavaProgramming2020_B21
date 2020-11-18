@@ -25,8 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Nov12">
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Nov14">
+      <change afterPath="$PROJECT_DIR$/src/Library/StringUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30_ReturnMethods/UniqueElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day30_ReturnMethods/UniqueElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -55,6 +64,40 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
+  <component name="RunManager" selected="Application.UniqueElements">
+    <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day28_MultiDimensionalArrays.MultiDimensionalArrays" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day28_MultiDimensionalArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day30_ReturnMethods.UniqueElements" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day30_ReturnMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UniqueElements" />
+        <item itemvalue="Application.MultiDimensionalArrays" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605209644255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Nov14">
+      <created>1605368062839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605368062839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,16 +150,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nov12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nov12" />
+    <MESSAGE value="Nov14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nov14" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1605209687822">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1605674992536">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605209687822" />
-    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605208711105">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1605674992536">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605208711105" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
+    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1605674992536">
+      <screen x="1680" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1605674992536">
+      <screen x="1680" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1605368075995">
+      <screen x="1680" y="0" width="1680" height="1020" />
+    </state>
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605368075995" />
+    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605673793808">
+      <screen x="1680" y="0" width="1680" height="1020" />
+    </state>
+    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605673793808" />
+    <state x="2183" y="220" key="search.everywhere.popup" timestamp="1605654642562">
+      <screen x="1680" y="0" width="1680" height="1020" />
+    </state>
+    <state x="2183" y="220" key="search.everywhere.popup/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605654642562" />
   </component>
 </project>
