@@ -29,8 +29,27 @@ public class MethodCalls {
         System.out.println("==========================================");
 
         int[] array = {1, 0, -2, 30, 40, 500, -20, -50};
+
         int[] descendingArray = ArraysUtility.sort(array);
         System.out.println(Arrays.toString(descendingArray));
+
+        System.out.println(ArraysUtility.printArray(descendingArray));
+
+        System.out.println("==========================================");
+
+        String s1 = "ccccccccccbbbbbbbbbbbbbbaaaaaaaaaaaa";
+        String s2 = "bbbbbbbbbbbbaaaaaaaaacd";
+
+        boolean r1 = StringUtility.isAnagram(s1, s2);
+
+        System.out.println(r1);
+
+        System.out.println("==========================================");
+        String st = "racecar";
+
+        boolean r2 = StringUtility.isPalindrome(st);
+
+        System.out.println(r2);
 
 
     }
