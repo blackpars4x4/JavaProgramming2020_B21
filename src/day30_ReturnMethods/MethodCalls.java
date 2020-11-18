@@ -24,8 +24,6 @@ public class MethodCalls {
         System.out.println(result3);
 
 
-
-
     }
 
 

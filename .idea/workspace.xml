@@ -25,11 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Nov17">
-      <change afterPath="$PROJECT_DIR$/src/day30_ReturnMethods/MethodCalls.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Nov17-2">
+      <change afterPath="$PROJECT_DIR$/src/day30_ReturnMethods/FrequencyOfCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day30_ReturnMethods/UniqueElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day30_ReturnMethods/UniqueElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/StringUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/StringUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day30_ReturnMethods/ReturnMethods3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day30_ReturnMethods/ReturnMethods3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30_ReturnMethods/MethodCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day30_ReturnMethods/MethodCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30_ReturnMethods/ReturnMethods3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day30_ReturnMethods/ReturnMethods3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/StringUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/StringUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MethodCalls">
+  <component name="RunManager" selected="Application.FrequencyOfCharacters">
+    <configuration name="FrequencyOfCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day30_ReturnMethods.FrequencyOfCharacters" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day30_ReturnMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day30_ReturnMethods.MethodCalls" />
       <module name="JavaProgramming2020_B21" />
@@ -107,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrequencyOfCharacters" />
         <item itemvalue="Application.MethodCalls" />
         <item itemvalue="Application.UniqueElements" />
         <item itemvalue="Application.MultiDimensionalArrays" />
@@ -150,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605676440410</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Nov17-2">
+      <created>1605677307493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605677307493</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,29 +204,30 @@
     <MESSAGE value="Nov12" />
     <MESSAGE value="Nov14" />
     <MESSAGE value="Nov17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nov17" />
+    <MESSAGE value="Nov17-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nov17-2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1605676812020">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1605678146951">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
-    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1605676812020">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605678146951" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1605678146951">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
-    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1605676812020">
+    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605678146951" />
+    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1605678146951">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
-    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1605676812020">
+    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605678146951" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1605678146951">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1605676445932">
+    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605678146951" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1605677310372">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676445932" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605677310372" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605673793808">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
