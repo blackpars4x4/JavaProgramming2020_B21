@@ -1,4 +1,4 @@
-package Library;
+package library;
 
 public class StringUtility {
 
@@ -40,7 +40,7 @@ public class StringUtility {
         return result;
     }
 
-    public static void removeDuplicate(String str) {
+    public static String removeDuplicate(String str) {
         String result = "";// expected result "abc"
 
         for (String each : str.split("")) {
@@ -49,6 +49,6 @@ public class StringUtility {
 
             }
         }
-        System.out.println(result);
+        return result;
     }
 }

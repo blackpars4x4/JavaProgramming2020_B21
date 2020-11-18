@@ -25,10 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Nov14">
-      <change afterPath="$PROJECT_DIR$/src/Library/StringUtility.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Nov17">
+      <change afterPath="$PROJECT_DIR$/src/day30_ReturnMethods/MethodCalls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30_ReturnMethods/UniqueElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day30_ReturnMethods/UniqueElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day30_ReturnMethods/UniqueElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day30_ReturnMethods/UniqueElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library/StringUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/StringUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.UniqueElements">
+  <component name="RunManager" selected="Application.MethodCalls">
+    <configuration name="MethodCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day30_ReturnMethods.MethodCalls" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day30_ReturnMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day28_MultiDimensionalArrays.MultiDimensionalArrays" />
       <module name="JavaProgramming2020_B21" />
@@ -93,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodCalls" />
         <item itemvalue="Application.UniqueElements" />
         <item itemvalue="Application.MultiDimensionalArrays" />
       </list>
@@ -121,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605368062839</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Nov17">
+      <created>1605676432470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605676432470</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Nov17">
+      <created>1605676440410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605676440410</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,29 +180,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nov12" />
     <MESSAGE value="Nov14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nov14" />
+    <MESSAGE value="Nov17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nov17" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1605674992536">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1605676812020">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
-    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1605674992536">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1605676812020">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
-    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1605674992536">
+    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
+    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1605676812020">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
-    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1605674992536">
+    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1605676812020">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605674992536" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1605368075995">
+    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676812020" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1605676445932">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605368075995" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605676445932" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605673793808">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
