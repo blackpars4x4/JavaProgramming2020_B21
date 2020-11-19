@@ -9,7 +9,7 @@ public class MultiDArray {
         int[][] arr2D3 = {{100, 200, 300}, {400, 500, 600, 700, 800}};
 
         int[][][] arr3D = {arr2D1, arr2D2, arr2D3};
-        //     0        1        2
+        //                   0        1        2
 
         System.out.println(Arrays.deepToString(arr2D3));
 
