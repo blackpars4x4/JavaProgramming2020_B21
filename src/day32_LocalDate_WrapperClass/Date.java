@@ -6,7 +6,7 @@ import java.time.LocalDate;
 public class Date {
     public static void main(String[] args) {
 
-        LocalDate yesterday = LocalDate.of(2020,11, 22);
+        LocalDate yesterday = LocalDate.of(2020, 11, 22);
 
         System.out.println(yesterday);
 
@@ -19,17 +19,18 @@ public class Date {
 
         System.out.println(today);
 
-        String[] names= {"Julia", "Inna", "Anna", "Ruslan", "Livio"};
+        String[] names = {"Julia", "Inna", "Anna", "Ruslan", "Livio"};
         LocalDate[] birthDays = {
-                LocalDate.of(1990, 11,23),
+                LocalDate.of(1990, 11, 23),
                 LocalDate.of(1995, 02, 10),
                 LocalDate.of(2000, 03, 15),
                 LocalDate.of(2005, 04, 20),
-                LocalDate.of(2010, 05,25)
+                LocalDate.of(2010, 05, 25)
         };
 
-        for(int i = 0; i <= names.length-1; i++){
-            System.out.println(names[i] + "' birthday is: "+ birthDays[i]);
+        for (int i = 0; i <= names.length - 1; i++) {
+            System.out.println(names[i] + "' birthday is: " + birthDays[i]);
+            System.out.println(names[i] + " was born on the leap year: " + birthDays[i].isLeapYear());
         }
 
     }
