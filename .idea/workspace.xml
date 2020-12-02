@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec2-1">
-      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/BulkOperations.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec2-2">
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/CharactersList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/SimpleLambdaExpressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34_ArrayList/Uniques2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day34_ArrayList/Uniques2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BulkOperations">
+  <component name="RunManager" selected="Application.CharactersList">
     <configuration name="BulkOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day34_ArrayList.BulkOperations" />
       <module name="JavaProgramming2020_B21" />
@@ -77,21 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.CollectionUtility" />
-      <module name="JavaProgramming2020_B21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day34_ArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrequencyOfCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.FrequencyOfCharacters" />
+    <configuration name="CharactersList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.CharactersList" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uniques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.Uniques" />
+    <configuration name="SimpleLambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.SimpleLambdaExpressions" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day34_ArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Uniques2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.Uniques2" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharactersList" />
+        <item itemvalue="Application.SimpleLambdaExpressions" />
+        <item itemvalue="Application.Uniques2" />
         <item itemvalue="Application.BulkOperations" />
         <item itemvalue="Application.FrequencyOfCharacters2" />
-        <item itemvalue="Application.FrequencyOfCharacters" />
-        <item itemvalue="Application.Uniques" />
-        <item itemvalue="Application.CollectionUtility" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606931712817</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Dec2-2">
+      <created>1606940989053</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606940989053</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,29 +312,30 @@
     <MESSAGE value="Nov30-6" />
     <MESSAGE value="Dec1-1" />
     <MESSAGE value="Dec2-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec2-1" />
+    <MESSAGE value="Dec2-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec2-2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1606940843289">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1606947423596">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606940843289" />
-    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1606940843289">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606947423596" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1606947423596">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606940843289" />
-    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1606940843289">
+    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606947423596" />
+    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1606947423596">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606940843289" />
-    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1606940843289">
+    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606947423596" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1606947423596">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606940843289" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1606931714622">
+    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606947423596" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1606940991004">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606931714622" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606940991004" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
