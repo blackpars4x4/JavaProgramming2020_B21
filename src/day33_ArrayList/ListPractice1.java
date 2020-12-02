@@ -55,5 +55,27 @@ public class ListPractice1 {
         }
         System.out.println(list2);
 
+        System.out.println("==========================================");
+
+        int[] arry1 = {1, 2, 3, 4, 5, 6};
+        int[] arry2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arry3 = {90, 80, 70, 60};
+        int[] arry4 = {40, 35, 45, 65, 7, 5};
+        int[] arry5 = {35, 54, 67, 89, 98, 89, 76};
+
+        int[][] arry2D = {arry1, arry2, arry3, arry4, arry5};
+
+        ArrayList<Integer> list3 = new ArrayList<>();
+
+        for (int[] each1D : arry2D) {
+            for (int eachElement : each1D) {
+                list3.add(eachElement);
+            }
+        }
+
+
+        System.out.println(list3);
+
+
     }
 }

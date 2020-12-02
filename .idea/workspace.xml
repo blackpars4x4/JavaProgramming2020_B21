@@ -25,10 +25,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Nov30-6">
-      <change afterPath="$PROJECT_DIR$/src/day33_ArrayList/ListIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day33_ArrayList/ListPractice1.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec1-1">
+      <change afterPath="$PROJECT_DIR$/src/day33_ArrayList/ListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_ArrayList/ListPractice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_ArrayList/ListPractice3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_ArrayList/ListPractice4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/CollectionUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/FrequencyOfCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/FrequencyOfCharacters2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/Uniques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/Uniques2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_ArrayList/WarmUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day33_ArrayList/ListPractice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day33_ArrayList/ListPractice1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +73,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ListPractice1">
-    <configuration name="DateTimePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day33_ArrayList.DateTimePractice" />
+  <component name="RunManager" selected="Application.FrequencyOfCharacters2">
+    <configuration name="CollectionUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.CollectionUtility" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day33_ArrayList.*" />
+          <option name="PATTERN" value="day34_ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day33_ArrayList.ListIntro" />
+    <configuration name="FrequencyOfCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.FrequencyOfCharacters" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day33_ArrayList.*" />
+          <option name="PATTERN" value="day34_ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day33_ArrayList.ListPractice1" />
+    <configuration name="FrequencyOfCharacters2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.FrequencyOfCharacters2" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day33_ArrayList.*" />
+          <option name="PATTERN" value="day34_ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day33_ArrayList.PasswordValidation" />
+    <configuration name="Uniques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.Uniques" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day33_ArrayList.*" />
+          <option name="PATTERN" value="day34_ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day33_ArrayList.WrapperClassPractice" />
+    <configuration name="WarmUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.WarmUp" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day33_ArrayList.*" />
+          <option name="PATTERN" value="day34_ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListPractice1" />
-        <item itemvalue="Application.ListIntro" />
-        <item itemvalue="Application.PasswordValidation" />
-        <item itemvalue="Application.WrapperClassPractice" />
-        <item itemvalue="Application.DateTimePractice" />
+        <item itemvalue="Application.FrequencyOfCharacters2" />
+        <item itemvalue="Application.FrequencyOfCharacters" />
+        <item itemvalue="Application.Uniques" />
+        <item itemvalue="Application.CollectionUtility" />
+        <item itemvalue="Application.WarmUp" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606805508318</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Dec1-1">
+      <created>1606849183157</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606849183157</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,29 +304,30 @@
     <MESSAGE value="Nov30-4" />
     <MESSAGE value="Nov30-5" />
     <MESSAGE value="Nov30-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nov30-6" />
+    <MESSAGE value="Dec1-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec1-1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1606848855028">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1606931215838">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606848855028" />
-    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1606848855027">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606931215838" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1606931215838">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606848855027" />
-    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1606848855027">
+    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606931215838" />
+    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1606931215837">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606848855027" />
-    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1606848855028">
+    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606931215837" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1606931215838">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606848855028" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1606805515522">
+    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606931215838" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1606849185026">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606805515522" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606849185026" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
