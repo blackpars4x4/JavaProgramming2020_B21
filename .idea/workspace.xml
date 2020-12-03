@@ -25,9 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec2-4">
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec2-5">
+      <change afterPath="$PROJECT_DIR$/src/day35_CustomClass/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day35_CustomClass/CarObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36_CustomClass/BankOfAmerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36_CustomClass/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day35_CustomClass/ArrayListPractice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day35_CustomClass/ArrayListPractice2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ArrayListPractice2">
+  <component name="RunManager" selected="Application.CarObjects">
     <configuration name="ArrayListPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day35_CustomClass.ArrayListPractice1" />
       <module name="JavaProgramming2020_B21" />
@@ -79,6 +82,19 @@
     </configuration>
     <configuration name="ArrayListPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day35_CustomClass.ArrayListPractice2" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day35_CustomClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day35_CustomClass.CarObjects" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
@@ -116,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uniques2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34_ArrayList.Uniques2" />
-      <module name="JavaProgramming2020_B21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day34_ArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarObjects" />
         <item itemvalue="Application.ArrayListPractice2" />
         <item itemvalue="Application.ArrayListPractice1" />
         <item itemvalue="Application.CharactersList" />
         <item itemvalue="Application.SimpleLambdaExpressions" />
-        <item itemvalue="Application.Uniques2" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606954146477</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Dec2-5">
+      <created>1606955242985</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606955242985</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,37 +337,42 @@
     <MESSAGE value="Dec2-2" />
     <MESSAGE value="Dec2-3" />
     <MESSAGE value="Dec2-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec2-4" />
+    <MESSAGE value="Dec2-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec2-5" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1606954904518">
+    <state x="1974" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606957855877">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606954904518" />
-    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1606954904518">
+    <state x="1974" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606957855877" />
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1606958070200">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606954904518" />
-    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1606954904518">
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606958070200" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1606958070200">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606954904518" />
-    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1606954904518">
+    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606958070200" />
+    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1606958070200">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606954904518" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1606954148068">
+    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606958070200" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1606958070200">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606954148068" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606958070200" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1606955248680">
+      <screen x="1680" y="0" width="1680" height="1020" />
+    </state>
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606955248680" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605849801660" />
-    <state x="2183" y="220" key="search.everywhere.popup" timestamp="1605654642562">
+    <state x="2183" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1606957914251">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2183" y="220" key="search.everywhere.popup/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605654642562" />
+    <state x="2183" y="220" width="672" height="678" key="search.everywhere.popup/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1606957914251" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
