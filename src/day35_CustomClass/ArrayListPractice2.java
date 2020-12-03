@@ -35,7 +35,7 @@ public class ArrayListPractice2 {
 
         // remove the elements that are less than 7
         numbers2.removeIf( p -> p < 7);
-
+        System.out.println(numbers2);
 
         System.out.println("==============================================");
         ArrayList<Integer> list = new ArrayList<>();
