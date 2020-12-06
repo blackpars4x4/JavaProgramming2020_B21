@@ -63,5 +63,41 @@ LocalTime:
         System.out.println(tomorrow.format(df));
 
         boolean r1 = today.isBefore(tomorrow);
+        boolean r2 = today.isAfter(tomorrow);
+
+        System.out.println(r1);
+        System.out.println(r2);
+
+
+
+        //calculate the age
+                    //
+        int currentYear = LocalDate.now().getYear();
+        LocalDate DofB = LocalDate.of(2000, 5, 19);
+
+        int age = currentYear - DofB.getYear();
+
+        System.out.println(age);
+
+        System.out.println((DofB.plusDays(10)));
+
+        LocalDate rightNow = LocalDate.now();
+
+        LocalDate holidayBreak = rightNow.plusDays(2);
+        System.out.println(holidayBreak);
+
+        LocalTime time = LocalTime.now();
+        LocalTime lunchBreak = time.plusMinutes(15);
+
+        System.out.println(lunchBreak.format(tf));
+
+        System.out.println("======================================================");
+
+        LocalTime classStarts = LocalTime.of(10,0);
+        LocalTime firstBreak = classStarts.plusMinutes(4);
+
+
+
+
     }
 }
