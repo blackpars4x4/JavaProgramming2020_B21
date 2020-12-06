@@ -94,7 +94,19 @@ LocalTime:
         System.out.println("======================================================");
 
         LocalTime classStarts = LocalTime.of(10,0);
-        LocalTime firstBreak = classStarts.plusMinutes(4);
+        LocalTime firstBreak = classStarts.plusMinutes(45);
+        System.out.println(firstBreak);
+
+        LocalTime secondBreak = firstBreak.plusHours(1);
+        System.out.println(secondBreak);
+
+        LocalTime thirdBreak = secondBreak.plusHours(1).plusMinutes(15);
+        System.out.println(thirdBreak);
+
+        LocalTime afternoonClass = thirdBreak.plusHours(1).plusMinutes(15);
+        System.out.println("Come back at: "+ afternoonClass.format(tf));
+
+
 
 
 
