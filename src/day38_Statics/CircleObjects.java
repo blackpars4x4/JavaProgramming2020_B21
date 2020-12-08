@@ -11,7 +11,7 @@ public class CircleObjects {
         // circle1.equals()
 
         Circle circle2 = new Circle();
-        circle2.setInfo(10);
+        circle2.setInfo(5);
 
         System.out.println(circle2);
 
