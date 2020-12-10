@@ -1,5 +1,7 @@
 package day38_Statics;
 
+import java.text.DecimalFormat;
+
 public class SalaryCalculator {
     public double hourlyRate, weeklyHours, stateTaxRate, federalTaxRate, salary, salaryAfterTax;
 
@@ -36,13 +38,12 @@ public class SalaryCalculator {
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("$0,000.00");
+        DecimalFormat df2 = new DecimalFormat("$0.00");
         return "SalaryCalculator{" +
-                "hourlyRate=" + hourlyRate +
-                ", weeklyHours=" + weeklyHours +
-                ", stateTaxRate=" + stateTaxRate +
-                ", federalTaxRate=" + federalTaxRate +
-                ", salary=" + salary +
-                ", salaryAfterTax=" + salaryAfterTax +
+                "hourlyRate= " + ((hourlyRate < 1000)? df2.format(hourlyRate):df.format(hourlyRate)) +
+                ", salary= " + df.format(salary) +
+                ", salaryAfterTax= " + df.format(salaryAfterTax) +
                 '}';
     }
 
