@@ -25,16 +25,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec8-2">
-      <change afterPath="$PROJECT_DIR$/src/day38_Statics/CybertekStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day38_Statics/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day38_Statics/IphoneObjectClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/MyScrumTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/ScrumTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/Tester.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec10-1">
+      <change afterPath="$PROJECT_DIR$/src/day37_CustomClass/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/Carpet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/CarpetObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/StaticBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/ConstructorIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/MySalaries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/SalaryCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day38_Statics/SalaryCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/SalaryCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/MyScrumTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/MyScrumTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/ScrumTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/ScrumTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +76,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.IphoneObjectClass">
-    <configuration name="ArraysPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Practice_11_26_2020.ArraysPractice1" />
+  <component name="RunManager" selected="Application.MySalaries">
+    <configuration name="CarpetObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day39_StaticInitializerBlock.CarpetObjects" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Practice_11_26_2020.*" />
+          <option name="PATTERN" value="day39_StaticInitializerBlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day38_Statics.CircleObjects" />
+    <configuration name="CirleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day40_Constructor.CirleObjects" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day38_Statics.*" />
+          <option name="PATTERN" value="day40_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IphoneObjectClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day38_Statics.IphoneObjectClass" />
+    <configuration name="MySalaries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day40_Constructor.MySalaries" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day38_Statics.*" />
+          <option name="PATTERN" value="day40_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Practice_11_26_2020.LoopsPractice1" />
+    <configuration name="RectangleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day40_Constructor.RectangleObjects" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Practice_11_26_2020.*" />
+          <option name="PATTERN" value="day40_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryCalculatorObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day38_Statics.SalaryCalculatorObjects" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day39_StaticInitializerBlock.Test" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day38_Statics.*" />
+          <option name="PATTERN" value="day39_StaticInitializerBlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IphoneObjectClass" />
-        <item itemvalue="Application.SalaryCalculatorObjects" />
-        <item itemvalue="Application.CircleObjects" />
-        <item itemvalue="Application.ArraysPractice1" />
-        <item itemvalue="Application.LoopsPractice1" />
+        <item itemvalue="Application.MySalaries" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CarpetObjects" />
+        <item itemvalue="Application.RectangleObjects" />
+        <item itemvalue="Application.CirleObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607453072928</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Dec10-1">
+      <created>1607628282152</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607628282152</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov17-3" />
     <MESSAGE value="Nov17-4" />
     <MESSAGE value="Nov17-5" />
     <MESSAGE value="Nov30-1" />
@@ -426,7 +437,8 @@
     <MESSAGE value="Dec6-2" />
     <MESSAGE value="Dec8-1" />
     <MESSAGE value="Dec8-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec8-2" />
+    <MESSAGE value="Dec10-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec10-1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1974" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606957855877">
@@ -437,34 +449,34 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2273" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607293486171" />
-    <state x="2282" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1607628261326">
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1607709567663">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2282" y="210" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607628261326" />
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1607453647895">
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607709567663" />
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1607712631169">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607453647895" />
-    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1607453647895">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1607712631169">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607453647895" />
-    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1607453647895">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1607712631169">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607453647895" />
-    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1607453647895">
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1607712631169">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607453647895" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
     <state x="2021" y="154" key="SettingsEditor" timestamp="1607011884101">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607011884101" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1607453074820">
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1607628283931">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607453074820" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607628283931" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>

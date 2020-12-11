@@ -6,7 +6,7 @@ public class Tester {
     public double salary;
     public char gender;
 
-    public Tester(String name, String ID, String jobTitle, String companyName, double salary, char gender) {
+    public void setInfo(String name, String ID, String jobTitle, String companyName, double salary, char gender) {
         this.name = name;
         this.ID = ID;
         this.jobTitle = jobTitle;
@@ -15,16 +15,15 @@ public class Tester {
         this.gender = gender;
     }
 
-
-    public void smokeTesting() {
-        System.out.println(name + " is performing smoke testing");
+    public void smokeTesting(){
+        System.out.println(name+" is performing smoke testing");
     }
 
-    public void creatingTicket() {
-        System.out.println(name + " is creating ticket");
+    public void creatingTicket(){
+        System.out.println(name+" is creating ticket");
     }
 
-    @Override
+
     public String toString() {
         return "Tester{" +
                 "name='" + name + '\'' +
@@ -35,7 +34,9 @@ public class Tester {
                 ", gender=" + gender +
                 '}';
     }
+
 }
+
 /*
 create a class called Tester
 					Attributes:
