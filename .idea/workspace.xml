@@ -25,21 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec10-1">
-      <change afterPath="$PROJECT_DIR$/src/day37_CustomClass/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/Carpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/CarpetObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/StaticBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/ConstructorIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/MySalaries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/SalaryCalculator.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec11-2">
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/ConstructorCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40_Constructor/EmployeeObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/MyScrumTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/MyScrumTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/ScrumTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/ScrumTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/ScrumTask/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.MySalaries">
+  <component name="RunManager" selected="Application.EmployeeObjects">
     <configuration name="CarpetObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day39_StaticInitializerBlock.CarpetObjects" />
       <module name="JavaProgramming2020_B21" />
@@ -90,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CirleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day40_Constructor.CirleObjects" />
+    <configuration name="ConstructorCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day39_StaticInitializerBlock.ConstructorCall" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day39_StaticInitializerBlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day40_Constructor.EmployeeObjects" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
@@ -105,19 +109,6 @@
     </configuration>
     <configuration name="MySalaries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day40_Constructor.MySalaries" />
-      <module name="JavaProgramming2020_B21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day40_Constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectangleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day40_Constructor.RectangleObjects" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeObjects" />
+        <item itemvalue="Application.ConstructorCall" />
         <item itemvalue="Application.MySalaries" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.CarpetObjects" />
-        <item itemvalue="Application.RectangleObjects" />
-        <item itemvalue="Application.CirleObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607628282152</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Dec11-2">
+      <created>1607715832905</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607715832905</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +411,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov17-4" />
     <MESSAGE value="Nov17-5" />
     <MESSAGE value="Nov30-1" />
     <MESSAGE value="Nov30-2" />
@@ -438,7 +435,8 @@
     <MESSAGE value="Dec8-1" />
     <MESSAGE value="Dec8-2" />
     <MESSAGE value="Dec10-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec10-1" />
+    <MESSAGE value="Dec11-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec11-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1974" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606957855877">
@@ -449,34 +447,38 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2273" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607293486171" />
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1607709567663">
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1607720902090">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607709567663" />
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1607712631169">
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607720902090" />
+    <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607719085216">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
-    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1607712631169">
+    <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719085216" />
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1607719802683">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
-    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1607712631169">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719802683" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1607719802683">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
-    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1607712631169">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719802683" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1607719802683">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607712631169" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719802683" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1607719802683">
+      <screen x="1680" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719802683" />
     <state x="2021" y="154" key="SettingsEditor" timestamp="1607011884101">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607011884101" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1607628283931">
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1607715834514">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607628283931" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607715834514" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
