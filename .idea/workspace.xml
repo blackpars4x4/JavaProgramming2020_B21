@@ -25,16 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec11-3">
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/PersonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Test.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec16-1">
+      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/BankOfAmerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/CircleObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,13 +67,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.PersonObject">
-    <configuration name="ConstructorCall (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day40_Constructor.ConstructorCall" />
+  <component name="RunManager" selected="Application.BankOfAmerica">
+    <configuration name="BankOfAmerica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.BankOfAmerica" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day40_Constructor.*" />
+          <option name="PATTERN" value="day41_Enclapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.CircleObject" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day41_Enclapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.ShoppingList" />
-      <module name="JavaProgramming2020_B21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day41_Enclapsulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.Test" />
       <module name="JavaProgramming2020_B21" />
@@ -140,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankOfAmerica" />
+        <item itemvalue="Application.CircleObject" />
         <item itemvalue="Application.PersonObject" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ShoppingList" />
-        <item itemvalue="Application.ConstructorCall (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607909308891</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Dec16-1">
+      <created>1608144357385</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608144357385</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,7 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov30-1" />
     <MESSAGE value="Nov30-2" />
     <MESSAGE value="Nov30-3" />
     <MESSAGE value="Nov30-4" />
@@ -455,7 +456,8 @@
     <MESSAGE value="Dec10-1" />
     <MESSAGE value="Dec11-2" />
     <MESSAGE value="Dec11-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec11-3" />
+    <MESSAGE value="Dec16-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec16-1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1974" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606957855877">
@@ -466,38 +468,38 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2273" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607293486171" />
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1608143882213">
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1608148454462">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608143882213" />
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608148454462" />
     <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607719085216">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719085216" />
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1608144124443">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1608149402985">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608144124443" />
-    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1608144124442">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402985" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1608149402984">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608144124442" />
-    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1608144124442">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402984" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1608149402984">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608144124442" />
-    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1608144124443">
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402984" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1608149402985">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608144124443" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402985" />
     <state x="2021" y="154" key="SettingsEditor" timestamp="1607011884101">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607011884101" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1607909312164">
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1608144359363">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607909312164" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608144359363" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
