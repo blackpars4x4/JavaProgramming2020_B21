@@ -25,11 +25,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec16-1">
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/BankOfAmerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_Enclapsulation/CircleObject.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec16-2">
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/DeviceObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/Tv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.BankOfAmerica">
+  <component name="RunManager" selected="Application.DeviceObject">
     <configuration name="BankOfAmerica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.BankOfAmerica" />
       <module name="JavaProgramming2020_B21" />
@@ -94,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.Login" />
+    <configuration name="DeviceObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.DeviceTask.DeviceObject" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41_Enclapsulation.*" />
+          <option name="PATTERN" value="day42_Inheritance.DeviceTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.Test" />
+    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.AnimalTask.Zoo" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41_Enclapsulation.*" />
+          <option name="PATTERN" value="day42_Inheritance.AnimalTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeviceObject" />
+        <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.BankOfAmerica" />
         <item itemvalue="Application.CircleObject" />
         <item itemvalue="Application.PersonObject" />
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608144357385</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Dec16-2">
+      <created>1608172353838</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608172353838</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov30-2" />
     <MESSAGE value="Nov30-3" />
     <MESSAGE value="Nov30-4" />
     <MESSAGE value="Nov30-5" />
@@ -457,7 +472,8 @@
     <MESSAGE value="Dec11-2" />
     <MESSAGE value="Dec11-3" />
     <MESSAGE value="Dec16-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec16-1" />
+    <MESSAGE value="Dec16-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec16-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1974" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606957855877">
@@ -468,38 +484,38 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2273" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607293486171" />
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1608148454462">
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1608230744639">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608148454462" />
+    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608230744639" />
     <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607719085216">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719085216" />
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1608149402985">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1608227858460">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402985" />
-    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1608149402984">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1608227858460">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402984" />
-    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1608149402984">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1608227858460">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402984" />
-    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1608149402985">
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1608227858460">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608149402985" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
     <state x="2021" y="154" key="SettingsEditor" timestamp="1607011884101">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607011884101" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1608144359363">
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1608172355203">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608144359363" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608172355203" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
