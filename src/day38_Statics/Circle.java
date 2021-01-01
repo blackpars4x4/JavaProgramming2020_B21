@@ -33,7 +33,10 @@ public class Circle {
     }
 
     public boolean equals(Circle circle){
+        System.out.println(this.radius);
+        System.out.println(circle.radius);
         return   this.radius == circle.radius;
+
     }
 
 }

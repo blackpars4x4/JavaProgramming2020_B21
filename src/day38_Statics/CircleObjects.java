@@ -18,6 +18,7 @@ public class CircleObjects {
         System.out.println(circle1 == circle2);
         System.out.println( circle1.equals(circle2)   );
 
+        circle1.equals(circle2);
 
 
     }

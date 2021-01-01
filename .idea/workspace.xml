@@ -25,21 +25,50 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec16-2">
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/AnimalTask/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/DeviceObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/DeviceTask/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_Inheritance/EmploymentTask/Tester.java" afterDir="false" />
+    <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec17-1">
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/CarTask/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/CarTask/CarObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/CarTask/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/CarTask/Jeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/CarTask/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/CarTask/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ConstructorCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/FinalKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ShapesTask/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ShapesTask/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ShapesTask/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ShapesTask/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ShapesTask/ShapeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ShapesTask/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/ShapesTask/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/ChromeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/CybertekDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/EdgeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/FireFoxDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/OperaDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/SalariDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day44_InheritancePractice/WebDriverTask/WebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/AccessModifiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/CarTask/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/CarTask/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/CarTask/CarMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/CarTask/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/PersonTask/AppleInc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/PersonTask/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/PersonTask/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/PersonTask/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/PersonTask/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/RestaurantTask/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/RestaurantTask/LocalRestaurants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/RestaurantTask/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/RestaurantTask/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43_Inheritance/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day38_Statics/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day38_Statics/CircleObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day38_Statics/CircleObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/StaticBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/StaticBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day39_StaticInitializerBlock/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +103,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.DeviceObject">
-    <configuration name="BankOfAmerica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.BankOfAmerica" />
+  <component name="RunManager" selected="Application.LocalRestaurants">
+    <configuration name="AppleInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day43_Inheritance.PersonTask.AppleInc" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41_Enclapsulation.*" />
+          <option name="PATTERN" value="day43_Inheritance.PersonTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.CircleObject" />
+    <configuration name="CarMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day43_Inheritance.CarTask.CarMax" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41_Enclapsulation.*" />
+          <option name="PATTERN" value="day43_Inheritance.CarTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeviceObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.DeviceTask.DeviceObject" />
+    <configuration name="CarObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day44_InheritancePractice.CarTask.CarObject" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42_Inheritance.DeviceTask.*" />
+          <option name="PATTERN" value="Day44_InheritancePractice.CarTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41_Enclapsulation.PersonObject" />
+    <configuration name="LocalRestaurants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day43_Inheritance.RestaurantTask.LocalRestaurants" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41_Enclapsulation.*" />
+          <option name="PATTERN" value="day43_Inheritance.RestaurantTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.AnimalTask.Zoo" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day43_Inheritance.Test" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42_Inheritance.AnimalTask.*" />
+          <option name="PATTERN" value="day43_Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeviceObject" />
-        <item itemvalue="Application.Zoo" />
-        <item itemvalue="Application.BankOfAmerica" />
-        <item itemvalue="Application.CircleObject" />
-        <item itemvalue="Application.PersonObject" />
+        <item itemvalue="Application.LocalRestaurants" />
+        <item itemvalue="Application.CarMax" />
+        <item itemvalue="Application.AppleInc" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.CarObject" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608172353838</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Dec17-1">
+      <created>1608231017808</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608231017808</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov30-3" />
     <MESSAGE value="Nov30-4" />
     <MESSAGE value="Nov30-5" />
     <MESSAGE value="Nov30-6" />
@@ -473,7 +509,8 @@
     <MESSAGE value="Dec11-3" />
     <MESSAGE value="Dec16-1" />
     <MESSAGE value="Dec16-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec16-2" />
+    <MESSAGE value="Dec17-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec17-1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1974" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606957855877">
@@ -484,38 +521,38 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2273" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607293486171" />
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1608230744639">
+    <state x="2343" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1608580035841">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2497" y="198" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608230744639" />
+    <state x="2343" y="175" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608580035841" />
     <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607719085216">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719085216" />
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1608227858460">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1608620012853">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
-    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1608227858460">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608620012853" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1608620012853">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
-    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1608227858460">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608620012853" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1608620012853">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
-    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1608227858460">
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608620012853" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1608620012853">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608227858460" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608620012853" />
     <state x="2021" y="154" key="SettingsEditor" timestamp="1607011884101">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607011884101" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1608172355203">
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1608231019754">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608172355203" />
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1608231019754" />
     <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
