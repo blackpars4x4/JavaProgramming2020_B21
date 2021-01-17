@@ -26,16 +26,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Dec31-1">
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/CarTask/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/CarTask/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/CarTask/CarFax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/CarTask/Lexus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/CarTask/Mercedes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/CarTask/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/MorningWorkOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/ShapeTask/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/ShapeTask/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day46_JavaRecap/ShapeTask/ShapeObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/CarTask/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/CarTask/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/CarTask/CarShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/CarTask/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/CarTask/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/CarTask/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/CarTask/Volume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/ShapeTasks/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/ShapeTasks/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/ShapeTasks/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/ShapeTasks/ShapeObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day47_Abstraction/ShapeTasks/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Dolphin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Predator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/AnimalTask/Swimable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_Abstraction/InterfaceRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/ShapeObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask/Volume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -71,10 +94,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../seleniumproject21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/day49_Abstraction/ShapeTask/ShapeTask" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.ShapeObjects">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dbulu\IdeaProjects\JavaProgramming2020_B21\src\day49_Abstraction\ShapeTask\ShapeTask" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ShapeObjects (1)">
     <configuration name="CarFax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day46_JavaRecap.CarTask.CarFax" />
       <module name="JavaProgramming2020_B21" />
@@ -88,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day45_Exceptions.ExceptionHandling" />
+    <configuration name="FinallyBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day45_Exceptions.FinallyBlock" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day45_Exceptions.FinallyBlock" />
+    <configuration name="ShapeObjects (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day47_Abstraction.ShapeTasks.ShapeObjects" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day45_Exceptions.ThrowsKeyword" />
+          <option name="PATTERN" value="day47_Abstraction.ShapeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShapeObjects (1)" />
         <item itemvalue="Application.ShapeObjects" />
         <item itemvalue="Application.CarFax" />
         <item itemvalue="Application.ThrowKeyword" />
         <item itemvalue="Application.FinallyBlock" />
-        <item itemvalue="Application.ExceptionHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609461465982</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Dec31-1">
+      <created>1610249576285</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610249576285</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,46 +531,46 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2273" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610034836074" />
-    <state x="2343" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1610041597969">
+    <state x="2343" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1610737903370">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2343" y="175" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610041597969" />
-    <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607719085216">
+    <state x="2343" y="175" key="#com.intellij.ide.util.MemberChooser/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610737903370" />
+    <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610727563990">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607719085216" />
+    <state x="2250" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610727563990" />
     <state x="2300" y="264" key="FileChooserDialogImpl" timestamp="1609813238636">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2300" y="264" key="FileChooserDialogImpl/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1609813238636" />
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1610042142413">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1610727564231">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610042142413" />
-    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1610042142413">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610727564231" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1610727564231">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610042142413" />
-    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1610042142413">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610727564231" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1610727564231">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610042142413" />
-    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1610042142413">
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610727564231" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1610727564231">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610042142413" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610727564231" />
     <state x="2021" y="154" key="SettingsEditor" timestamp="1607011884101">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1607011884101" />
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1609461467940">
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610249577606">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1609461467940" />
-    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605849801660">
+    <state x="2112" y="242" key="Vcs.Push.Dialog.v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610249577606" />
+    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610731131523">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1605849801660" />
+    <state x="2337" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1610731131523" />
     <state x="1902" y="130" key="new project wizard" timestamp="1609813221131">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
