@@ -5,6 +5,10 @@ public abstract class Phone {
     public  double price;
 
     public Phone(String brand, String model, String size, String color, double price) {
+        if(price < 0){
+            throw new RuntimeException("Invalid Price, cannot be negative");
+        }
+
         this.brand = brand;
         this.model = model;
         this.size = size;
