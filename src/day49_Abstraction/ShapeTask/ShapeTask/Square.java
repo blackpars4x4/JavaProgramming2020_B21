@@ -2,7 +2,7 @@ package day49_Abstraction.ShapeTask.ShapeTask;
 
 public class Square extends Shape{
 
-    public double side;
+    private double side;
 
     public Square(double side) {
         super("Square");
@@ -21,5 +21,13 @@ public class Square extends Shape{
     @Override
     public double perimeter() {
         return side * 4;
+    }
+
+    public double getSide() {
+        return side;
+    }
+
+    public void setSide(double side) {
+        this.side = side;
     }
 }

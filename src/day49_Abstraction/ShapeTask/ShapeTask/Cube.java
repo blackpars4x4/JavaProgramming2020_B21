@@ -1,35 +1,46 @@
 package day49_Abstraction.ShapeTask.ShapeTask;
 
 public class Cube extends Shape implements Volume  {
-    public double side;
+    private double side;
     public Cube(double side) {
         super("Cube");
         if(side <= 0){
             throw  new RuntimeException("No such a cube with side of "+side);
         }
-        this.side = side;
+        setSide(side);
     }
 
     @Override
     public double volume() {
-        return 0;
+        return side * side * side;
     }
 
     @Override
     public double area() {
-        return 0;
+        Square square =new Square(side);
+        return square.area() * 6;
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 12 * side;
     }
 
+    @Override
     public String toString() {
         return "Shape{" +
                 "name= '" + name + '\'' +
-                ", area= '" + area() + '\'' +
-                ", perimeter= '" + perimeter() + '\'' +
+                ", area= '" + df.format(area() ) + '\'' +
+                ", perimeter= '" + df.format(perimeter()) + '\'' +
+                ", volume= '" + df.format( volume() ) + '\'' +
                 '}';
+    }
+
+    public double getSide() {
+        return side;
+    }
+
+    public void setSide(double side) {
+        this.side = side;
     }
 }
