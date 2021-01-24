@@ -6,6 +6,7 @@ import day48_Abstraction.AnimalTask.Dolphin;
 import day48_Abstraction.AnimalTask.Eagle;
 
 public class InstanceOfKeyword {
+
     public static void main(String[] args) {
         Animal animal = new Eagle("xx", "yy", "t", 'f', 12);
 
@@ -14,10 +15,13 @@ public class InstanceOfKeyword {
         boolean isEagle = animal instanceof Eagle;
         boolean isAnimal = animal instanceof Animal;
 
+
         System.out.println("isDog = " + isDog);
         System.out.println("isDolphin = " + isDolphin);
         System.out.println("isEagle = " + isEagle);
         System.out.println("isAnimal = " + isAnimal);
-        
+
     }
+
+
 }
