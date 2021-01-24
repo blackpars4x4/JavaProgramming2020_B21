@@ -1,6 +1,4 @@
-package day49_Abstraction.ShapeTask.ShapeTask;
-
-import org.w3c.dom.ls.LSOutput;
+package day49_Abstraction.ShapeTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;

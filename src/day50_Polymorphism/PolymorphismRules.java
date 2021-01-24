@@ -1,12 +1,11 @@
 package day50_Polymorphism;
 
+import Day46_JavaRecap.CarTask.BMW;
+import Day46_JavaRecap.CarTask.Car;
+import Day46_JavaRecap.CarTask.Tesla;
 import day42_Inheritance.AnimalTask.Animal;
 import day42_Inheritance.AnimalTask.Dog;
 
-
-import day46_JavaRecap.CarTask.BMW;
-import day46_JavaRecap.CarTask.Car;
-import day46_JavaRecap.CarTask.Tesla;
 import day49_Abstraction.ShapeTask.Cube;
 import day49_Abstraction.ShapeTask.Shape;
 
@@ -46,7 +45,7 @@ public class PolymorphismRules {
 
       Animal animal2 = new Dog("Lucy", "Husky", 'M',12, "White", "Small");
 
-    //  animal2.bark();
+     // animal2.bark();
 
 
     }

@@ -2,18 +2,15 @@ package day50_Polymorphism;
 
 import day42_Inheritance.AnimalTask.Animal;
 import day42_Inheritance.AnimalTask.Cat;
-import day42_Inheritance.AnimalTask.Dog;
-import day43_Inheritance.CarTask.BMW;
 import day43_Inheritance.CarTask.Car;
 import day43_Inheritance.CarTask.Toyota;
-import day45_Exceptions.PhoneTask.Iphone;
 import day45_Exceptions.PhoneTask.Phone;
 import day45_Exceptions.PhoneTask.Samsung;
-import day49_Abstraction.ShapeTask.RemoteDriveTask.*;
-import day49_Abstraction.ShapeTask.ShapeTask.Circle;
-import day49_Abstraction.ShapeTask.ShapeTask.Cube;
-import day49_Abstraction.ShapeTask.ShapeTask.Cylinder;
-import day49_Abstraction.ShapeTask.ShapeTask.Shape;
+import day49_Abstraction.RemoteDriveTask.*;
+import day49_Abstraction.ShapeTask.Circle;
+import day49_Abstraction.ShapeTask.Cube;
+import day49_Abstraction.ShapeTask.Cylinder;
+import day49_Abstraction.ShapeTask.Shape;
 
 public class DownCasting {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day49_Abstraction.ShapeTask;
+package day49_Abstraction;
 
 
 interface X {

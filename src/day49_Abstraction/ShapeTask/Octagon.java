@@ -1,4 +1,4 @@
-package day49_Abstraction.ShapeTask.ShapeTask;
+package day49_Abstraction.ShapeTask;
 
 public class Octagon extends Shape{
     public double n, a;
