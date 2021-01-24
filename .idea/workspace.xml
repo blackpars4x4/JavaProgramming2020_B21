@@ -26,17 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Day50_1">
-      <change afterPath="$PROJECT_DIR$/src/day50_Polymorphism/DownCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day50_Polymorphism/InstanceOfKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day50_Polymorphism/PolymorphismRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day50_Polymorphism/ReferenceCasting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/AndroidApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/AndroidApps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/AppleApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/AppleApps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/Downloadable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/Downloadable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/IPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/IPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/PhoneTask/Samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/PolymorphismIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/PolymorphismIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/InstanceOfKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/InstanceOfKeyword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +71,13 @@
       <recent name="C:\Users\dbulu\IdeaProjects\JavaProgramming2020_B21\src\day49_Abstraction\ShapeTask\ShapeTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShapeObjects (2)">
-    <configuration name="CarFax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day46_JavaRecap.CarTask.CarFax" />
+  <component name="RunManager" selected="Application.InstanceOfKeyword">
+    <configuration name="InstanceOfKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day50_Polymorphism.InstanceOfKeyword" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day46_JavaRecap.CarTask.*" />
+          <option name="PATTERN" value="day50_Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InstanceOfKeyword" />
         <item itemvalue="Application.ShapeObjects (2)" />
         <item itemvalue="Application.TestCases" />
         <item itemvalue="Application.ShapeObjects (1)" />
         <item itemvalue="Application.ShapeObjects" />
-        <item itemvalue="Application.CarFax" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611353764933</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Day50_1">
+      <created>1611420962861</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1611420962861</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -563,22 +561,22 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2300" y="264" key="FileChooserDialogImpl/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1609813238636" />
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1611386682993">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1611464819917">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611386682993" />
-    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1611386682992">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611464819917" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1611464819917">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611386682992" />
-    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1611386682992">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611464819917" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1611464819917">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611386682992" />
-    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1611386682992">
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611464819917" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1611464819917">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611386682992" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611464819917" />
     <state x="2021" y="154" key="SettingsEditor" timestamp="1611293129271">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
