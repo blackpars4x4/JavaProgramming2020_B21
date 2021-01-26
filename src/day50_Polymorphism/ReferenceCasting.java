@@ -19,14 +19,12 @@ public class ReferenceCasting {
             double d = 10.5;
             int c = (int)d;
 
-
         System.out.println("======================================");
         // up casting: smaller reference type to larger reference type
         Circle circle = new Circle(3);
         Shape shape = (Shape)circle;
 
         WebDriver driver = new ChromeDriver();
-
 
         // down casting: larger reference type to the smaller
         Animal animal =  new Dog("Lucy", "Husky", 'M',12, "White", "Small");  // upcasting
@@ -38,9 +36,6 @@ public class ReferenceCasting {
         ( (Cat) animal2 ).meow();
 
         System.out.println("================================================");
-
-
-
 
     }
 
