@@ -26,10 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d030ea-e415-42ba-a89e-6cc446bc5920" name="Default Changelist" comment="Day50_1">
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection/CollectionIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection/ListPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection/SetPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_Collection/FrequencyOfCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_Collection/IteratorPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_Collection/MapIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_Collection/QueuePractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day49_Abstraction/ShapeTask/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day49_Abstraction/ShapeTask/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day49_Abstraction/ShapeTask/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day49_Abstraction/ShapeTask/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day50_Polymorphism/ReferenceCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_Polymorphism/ReferenceCasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day50_Polymorphism/ReferenceCasting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming2020_B21/day50_Polymorphism/ReferenceCasting.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +75,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaRecapNotes" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dbulu\IdeaProjects\JavaProgramming2020_B21\src\day49_Abstraction\ShapeTask\ShapeTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PolymorphismRules">
+  <component name="RunManager" selected="Application.IteratorPractice">
     <configuration name="AppleInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day50_Polymorphism.AppleInc" />
       <module name="JavaProgramming2020_B21" />
@@ -91,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceOfKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day50_Polymorphism.InstanceOfKeyword" />
+    <configuration name="FrequencyOfCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day53_Collection.FrequencyOfCharacters" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day50_Polymorphism.*" />
+          <option name="PATTERN" value="day53_Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day53_Collection.IteratorPractice" />
+      <module name="JavaProgramming2020_B21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day53_Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeObjects (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day49_Abstraction.ShapeTask.ShapeTask.ShapeObjects" />
+    <configuration name="QueuePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day53_Collection.QueuePractice" />
       <module name="JavaProgramming2020_B21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day49_Abstraction.ShapeTask.ShapeTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day49_Abstraction.ShapeTask.Test" />
-      <module name="JavaProgramming2020_B21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day49_Abstraction.ShapeTask.*" />
+          <option name="PATTERN" value="day53_Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorPractice" />
+        <item itemvalue="Application.QueuePractice" />
+        <item itemvalue="Application.FrequencyOfCharacters" />
         <item itemvalue="Application.PolymorphismRules" />
         <item itemvalue="Application.AppleInc" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.InstanceOfKeyword" />
-        <item itemvalue="Application.ShapeObjects (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -161,13 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604973671618</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Nov17">
-      <created>1605676440410</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605676440410</updated>
     </task>
     <task id="LOCAL-00005" summary="Nov17-2">
       <created>1605677307493</created>
@@ -505,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611522223420</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Day50_1">
+      <created>1611682338179</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1611682338179</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -582,22 +590,22 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state x="2300" y="264" key="FileChooserDialogImpl/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611503815727" />
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1611522703570">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom" timestamp="1612638373863">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611522703570" />
-    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1611522703570">
+    <state width="1637" height="205" key="GridCell.Tab.0.bottom/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1612638373863" />
+    <state width="1637" height="205" key="GridCell.Tab.0.center" timestamp="1612638373863">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611522703570" />
-    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1611522703570">
+    <state width="1637" height="205" key="GridCell.Tab.0.center/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1612638373863" />
+    <state width="1637" height="205" key="GridCell.Tab.0.left" timestamp="1612638373862">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611522703570" />
-    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1611522703570">
+    <state width="1637" height="205" key="GridCell.Tab.0.left/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1612638373862" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right" timestamp="1612638373863">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611522703570" />
+    <state width="1637" height="205" key="GridCell.Tab.0.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1612638373863" />
     <state width="1637" height="340" key="GridCell.Tab.1.bottom" timestamp="1611522510384">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
@@ -614,10 +622,10 @@
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
     <state width="1637" height="340" key="GridCell.Tab.1.right/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611522510384" />
-    <state x="2021" y="154" key="SettingsEditor" timestamp="1611293129271">
+    <state x="2021" y="154" key="SettingsEditor" timestamp="1611684864254">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611293129271" />
+    <state x="2021" y="154" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1611684864254" />
     <state x="2112" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611522224978">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
